@@ -1,0 +1,101 @@
+# 🎮 Tic Tac Toe Game in C++
+
+A simple command-line Tic Tac Toe game written in C++. This project demonstrates the use of basic programming concepts such as loops, conditionals, functions, arrays, and user input handling.
+
+---
+
+## 📌 Description
+
+This is a two-player console-based Tic Tac Toe game where players take turns marking X and O on a 3×3 grid. The game checks for winning conditions and declares the winner or a draw accordingly.
+
+This project is beginner-friendly and ideal for learning core C++ fundamentals and game logic implementation.
+
+---
+
+## 🚀 Features
+
+* Two-player gameplay (Player X and Player O)
+* Interactive command-line interface
+* Valid move checking
+* Win and draw detection
+* Clear and simple game board display
+
+---
+
+## 🛠️ Technologies Used
+
+* Language: C++
+* Concepts: Arrays, Functions, Loops, Conditional Statements, Input/Output
+
+---
+
+## ▶️ How to Compile and Run
+
+### Step 1: Compile the Program
+
+```bash
+g++ tic_tac_toe.cpp -o tic_tac_toe
+```
+
+### Step 2: Run the Executable
+
+```bash
+./tic_tac_toe
+```
+
+> On Windows:
+
+```bash
+g++ tic_tac_toe.cpp -o tic_tac_toe.exe
+tic_tac_toe.exe
+```
+
+---
+
+## 🎯 How to Play
+
+1. The game is played on a 3×3 grid.
+2. Player 1 uses **X** and Player 2 uses **O**.
+3. Players take turns entering a number (1–9) corresponding to the grid position.
+4. The first player to align three marks horizontally, vertically, or diagonally wins.
+5. If all positions are filled and no player wins, the game ends in a draw.
+
+---
+
+## 🧩 Game Board Layout
+
+```
+ 1 | 2 | 3
+-----------
+ 4 | 5 | 6
+-----------
+ 7 | 8 | 9
+```
+
+---
+
+## 📁 Project Structure
+
+```
+tic-tac-toe-cpp/
+│
+├── tic_tac_toe.cpp   # Main source code
+└── README.md         # Project documentation
+```
+
+---
+
+## 🔮 Future Improvements
+
+* Add single-player mode (AI opponent)
+* Improve UI with colors
+* Input validation with retry prompts
+* Score tracking for multiple rounds
+
+---
+
+## 👨‍💻 Author
+
+**Shashwat Sharma**
+
+Feel free to use and modify this project for learning purposes!
